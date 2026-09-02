@@ -124,7 +124,7 @@ main,
 .masthead-copy h1 {
   margin: 0;
   font-family: "Rye", Georgia, serif;
-  font-size: 55px;
+  font-size: 36px;
   font-weight: 400;
   letter-spacing: 0.01em;
   line-height: 1.2;
@@ -514,7 +514,7 @@ figcaption {
   }
 
   .masthead-copy h1 {
-    font-size: 32px;
+    font-size: 48x;
   }
 
   .issue-label span {
