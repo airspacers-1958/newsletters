@@ -353,11 +353,16 @@ figure {
   margin: 0;
 }
 
-figure img,
+figure img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background: #eeeae0;
+}
+
 .missing-image > div {
   width: 100%;
   aspect-ratio: 4 / 3;
-  object-fit: cover;
   background: #eeeae0;
 }
 
@@ -389,10 +394,6 @@ figcaption {
   gap: 46px 32px;
 }
 
-.photo-grid figure:nth-child(3) img {
-  object-position: center 64%;
-}
-
 .community-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -415,9 +416,8 @@ figcaption {
 }
 
 .feature-portrait img {
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  object-position: center 58%;
+  height: auto;
+  object-fit: contain;
 }
 
 .contact-note {

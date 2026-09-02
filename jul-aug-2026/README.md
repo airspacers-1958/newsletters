@@ -7,6 +7,7 @@ This directory is a self-contained static website. Open `index.html` directly or
 - Responsive HTML newsletter
 - Local Roboto and Rye font files (no font CDN required)
 - All seven supplied photographs and the Airspacers logo
+- Photographs displayed at their native aspect ratios without cropping
 - Scroll-triggered fade-in animation with a reduced-motion fallback
 
 ## Two photographs still needed
