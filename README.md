@@ -17,14 +17,16 @@ airspacers-newsletters/
 │   ├── email.html             # Email announcement template
 │   └── assets/                # Issue photos and copies of fonts/logo
 └── sep-oct-2026/
-    └── assets/images/         # Photos for the next issue
+    ├── index.html             # Full web newsletter
+    ├── email.html             # Email announcement template
+    └── assets/images/         # Issue photos and seasonal logo
 ```
 
-The July–August 2026 web edition is complete. The September–October folder currently contains images only.
+The July–August and September–October 2026 web editions are complete.
 
 ## Preview and edit
 
-Open `jul-aug-2026/index.html` directly in a browser. No dependencies, installation, or build step are required.
+Open `jul-aug-2026/index.html` or `sep-oct-2026/index.html` directly in a browser. No dependencies, installation, or build step are required.
 
 - Edit issue text, events, leaderboards, image references, and captions in the issue’s `index.html`.
 - Store issue photographs in that issue’s `assets/images/` folder.
@@ -46,4 +48,4 @@ The website includes responsive layouts, local fonts, photographs displayed with
 
 Serve the repository root through a static host such as Cloudflare Pages, GitHub Pages, or Netlify. Preserve the directory structure: issue pages depend on shared styles, scripts, fonts, and branding at the root.
 
-The July–August issue is available at `/jul-aug-2026/` relative to the site’s base URL. There is currently no root `index.html` or newsletter archive page.
+The issues are available at `/jul-aug-2026/` and `/sep-oct-2026/` relative to the site’s base URL. There is currently no root `index.html` or newsletter archive page.
