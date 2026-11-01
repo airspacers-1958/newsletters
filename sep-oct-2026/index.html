@@ -9,9 +9,15 @@
   .reading-copy { max-width: 76ch; }
   .reading-copy p { margin-bottom: 1.25rem; }
   .cockpit-column { border-left: 1px solid var(--line); padding-left: 32px; }
+  .issue-label .full-date, .issue-label .mobile-date { padding: 0; }
+  .issue-label .mobile-date { display: none; }
   @media (max-width: 900px) {
     .seasonal-masthead .seasonal-mark { display: none; }
     .cockpit-column { border-left: 0; border-top: 1px solid var(--line); padding: 42px 0 0; }
+  }
+  @media (max-width: 680px) {
+    .issue-label .full-date { display: none; }
+    .issue-label .mobile-date { display: inline; }
   }
 </style>
 </head><body>
@@ -23,7 +29,7 @@
 <div class="masthead-copy">
 <h1>The Run Up</h1>
 <p class="issue-label">Airspacers Bi-Monthly Newsletter 👻</p>
-<p class="issue-label">September – October 2026 • Information India</p></div>
+<p class="issue-label"><span class="full-date">September – October 2026</span><span class="mobile-date">Sep - Oct 2026</span> • Information India</p></div>
 <img class="seasonal-mark" src="assets/images/logo-spooky.png" alt="Halloween Airspacers logo" width="600" height="600"></header>
 <main>
 <section class="opening-grid section-rule" aria-label="Newsletter highlights">
